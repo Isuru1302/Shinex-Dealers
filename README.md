@@ -1,4 +1,4 @@
 # Shinex-Dealers
 
-An E-commerce site to introduce company products to the company
-[ShinexDealers](http://shinexdealer.com/)
+An **[E-commerce](http://shinexdealer.com/)** site to introduce company products to the company
+
