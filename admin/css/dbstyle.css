@@ -1,0 +1,187 @@
+body{
+	height: 100%;
+	margin:0;
+	padding: 0;
+}
+
+ul li{
+	list-style: none;
+}
+
+.dashboard_cate a{
+	text-decoration: none;
+}
+
+table{
+	border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr td button,tr th button{
+  background: transparent;
+  border:none;
+}
+
+.dbstore tr th ,.dbcate tr th{
+	color:#1e91cf;
+}
+
+.dbproducts{
+	overflow-x:auto;
+}
+
+.dbstore{
+	padding: 1em;
+}
+
+
+
+.dbcate tr td .fa ,.dbproducts tr td .fa,.dbstore tr td .fa{
+	border-radius: 5px;
+	padding: 0.6em;
+	color: #fff;
+	background:#1e91cf;
+	cursor: pointer;
+	float: right;
+	margin: auto;
+}
+
+.dbstore tr th .fa,.plsbtn{
+	border-radius: 5px;
+	padding: 0.6em;
+	color: #fff;
+	background:#1e91cf;
+	cursor: pointer;
+	float: right;
+	margin: auto;
+}
+
+.dbstore tr td, .dbstore th{
+	border:none!important;
+}
+
+.dbstore tr input{
+	width: 100%;
+	border:1px solid #ddd;
+	border-radius: 10px;
+	padding: 0.5em 1em;
+}
+
+.enablebtn{
+	float: right;
+	border-radius: 5px;
+	padding: 0.6em;
+	color: #fff;
+	background:#1e91cf!important;
+	cursor: pointer;
+	border:none;
+}
+
+.deltebtn{
+	background: red!important;
+}
+
+.modal-body input[type=text],select,.editpro input[type=text]{
+	width: 100%;
+	padding: 0.5em;
+	margin-top: 0.5em;
+}
+
+.remimg{
+	cursor: pointer;
+	border:1px solid #ddd;
+	padding:2px 5px;
+	border-radius: 5px;
+}
+
+.editpro{
+	border:1px solid black;
+	padding: 1em;
+	margin-top: 2em;
+}
+
+.footer{
+    display: none;
+}
+
+
+
+.dashboard_cate{
+	background:#242d37;
+	height: 800px;
+	color: #fff;
+	font-weight: bold;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 15em;
+}
+
+.nav{
+	height: 4em;
+}
+
+.logout{
+	float: right;
+}
+
+.messageboxName button{
+	font-size:12px;
+	padding:1px 4px;
+	float:right;
+	color:#fff;
+	font-weight:bold;
+	cursor:pointer;
+	background:transparent;
+	border:none;
+}
+
+.messagebox{
+	width:20em;
+	border:1px solid black;
+	background:#fff;
+	position:absolute;
+	bottom:0;
+	right:0;
+	z-index:99;
+}
+
+.messagebox h5{
+	padding:0.1em 0.3em;
+	background:#4e73df;
+	font-size:18px;
+	color:#fff;
+
+}
+
+.messages{
+	font-size:12px;
+	color:#000;
+	background:#fff;
+	padding:1em;
+	min-height:15em;
+	margin-top:2em;
+	overflow-y:scroll;
+}
+
+.messages h6{
+	padding-bottom:5px;
+	border-bottom:1px dotted #777;
+}
+
+.editproducts input[type=text],.editproducts select{
+	width: 100%;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+	border:1px solid #ddd;
+	border-radius: 5px;
+}
+
